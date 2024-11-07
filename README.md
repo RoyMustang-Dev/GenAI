@@ -50,5 +50,18 @@ pip install -r requirements/text_preprocessing_requirements.txt
 * Transformer based encoding
 
 ## `→ Project 1 - Text Classification using ML`
+* Importing all the necessary Libraries
+* Importing the Dataset
+* Basic EDA & Splitting the Data into smaller Batches
+* Applying the basic Text Preprocessing
+* Train-test Split
+* Modeling
+    - Bag of Words (Count Vectorizer)
+    - GaussianNB
+    - Random Forest Classifier (RFC)
+    - CountVectorizer with RFC
+    - CountVectorizer with Ngrams & RFC
+    - TF-IDF Vectorizer with RFC
+
 
 # Happy Coding!!!
