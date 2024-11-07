@@ -21,6 +21,11 @@ conda activate venv/
 ```
 pip install -r requirements/text_preprocessing_requirements.txt
 ```
+## Dataset Links
+1. [Text Preprocessing Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+2. [Feature Engineering Dataset](https://www.kaggle.com/datasets/khulasasndh/game-of-thrones-books)
+3. [Project 1 - Text Classification Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+
 # Getting started with Generative AI!!
 
 ## `→ Understanding the Basics of Text Processing`
