@@ -11,9 +11,10 @@ This repo contains an in-depth study and implementation of all the commonly used
 ## Creata a New Environment and Activate!!
 
 ```
-conda create -p venv python==3.9 -y
+conda create -p venv python==3.12 -y
 conda activate venv/
 ```
+<b>NOTE: Using Python ver 3.12 for better working with Gensim</b>
 
 ## Install all the Required Libraries!!
 
@@ -35,5 +36,14 @@ pip install -r requirements/text_preprocessing_requirements.txt
 * Using NLTK Word Tokenizer
 * Using NLTK PorterStemmer
 * Using NLTK WordNetLemmatizer 
+
+## `→ Understanding the Feature Engineering`
+* One-hot Encoding
+* Bag of Words (CountVectorizer)
+* TF-IDF
+* Word2Vec
+* Transformer based encoding
+
+## `→ Project 1 - Text Classification using ML`
 
 # Happy Coding!!!
