@@ -63,5 +63,41 @@ pip install -r requirements/text_preprocessing_requirements.txt
     - CountVectorizer with Ngrams & RFC
     - TF-IDF Vectorizer with RFC
 
+## `→ Large Language Models (LLMs)`
+* Introduction (in Notes)
+* Propmt Engineering
+    - Zero Shot Learning
+    - Few Shot Learning
+* Transformer Architecture (in Notes)
+    - Encoder based LLMs
+    - Decoder based LLms
+    - Encoder-Decoder based LLMs
+    - Google Research Paper: "Attention Is All You Need"
+    - Encoder Architecture:
+        - Self-Attention: Single Head, Multi Head
+        - Positional Encoding
+        - Add & Normalization: kind of Residual Layer (ResNet) feature
+        - Feed Forward Neural Network
+        - Inputs are given all at once (meaing Parallely)
+    - Decoder Architecture:
+        - Same as Encoder architecture
+        - Has one extra layer: Encoder-Decoder Attention
+        - Outputs are generated one-by-one
+    - Linear Layer
+    - Activation Layer: Softmax() is prominently used as an activation function
+* How is ChatGPT trained
+    - Uses an LLM: like gpt-3.5 or gpt-4, etc.
+    - It is then trained in Several different steps:
+        - Generative pre-training
+        - Supervised fine-tuning
+        - Reinforcement learning from human feedback (RLHF)
+* Huggingface Platform
+    - Introduction
+    - Pipelines
+    - NLP tasks
+    - Tokenization
+    - Datasets & Spaces
+    - Fine-tuning LLMs
+    - Project 2
 
 # Happy Coding!!!
