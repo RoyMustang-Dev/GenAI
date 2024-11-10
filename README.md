@@ -28,6 +28,8 @@ pip install -r requirements/text_preprocessing_requirements.txt
 
 # Getting started with Generative AI!!
 
+<b>NOTE: Some of the codes are written in Google Colab Notebooks, this will be mention in filename itself by "_colab".</b>
+
 ## `→ Understanding the Basics of Text Processing`
 * Definition of Generative AI
 * Created a Function that has multiple text processing functions
@@ -93,11 +95,30 @@ pip install -r requirements/text_preprocessing_requirements.txt
         - Reinforcement learning from human feedback (RLHF)
 * Huggingface Platform
     - Introduction
-    - Pipelines
+    - Huggingface Tasks
+        - NLP Tasks
+        - Computer Vision Tasks
+        - Speech Processing Tasks
+        - Multimodal Tasks
+        - Other Tasks
     - NLP tasks
-    - Tokenization
+        - Sentiment Analysis
+        - Batch Sentiment Analysis
+        - Text Generation
+        - Question Answering
+    - Tokenization: AutoTokenizer
     - Datasets & Spaces
+        - Loading and preparing Dataset
+        - Preprocessing the Data
+        - Setting-up the Training Arguments
+        - Initializing the Model
+        - Training the Model
+        - Evaluating the Model
+        - Saving the Model
+        - ArXiv data Summarization
     - Fine-tuning LLMs
     - Project 2
+
+## `→ Project 2 - Text Summarization using Huggingface`
 
 # Happy Coding!!!
