@@ -120,5 +120,24 @@ pip install -r requirements/text_preprocessing_requirements.txt
     - Project 2
 
 ## `→ Project 2 - Text Summarization using Huggingface`
+* Installing/Upgrading the Necessary Libraries
+* Importing the Libraries
+* Tokenization
+    - Initializing the Tokenizer and Model
+    - Loading Dataset from Huggingface
+    - Getting info about the dataset
+    - Converting Dataset into Tokens (Features)
+* Training
+    - Using Data Collator - for batch loading the data
+    - Setting the Training Arguments
+    - Initializing the Trainer
+    - Training
+* Evaluating the Model
+    - Using Rouge Metrics to evaluate the Text Summarization Model
+    - Using the Huggingface doc's function to evaluate the model
+* Saving the Model & Tokenizer
+* Loading the Saved Model
+* Predictions using the Loaded Model
+
 
 # Happy Coding!!!
