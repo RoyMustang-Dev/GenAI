@@ -118,6 +118,8 @@ pip install -r requirements/text_preprocessing_requirements.txt
         - ArXiv data Summarization
     - Fine-tuning LLMs
     - Project 2
+    - Text to Image Generation
+    - Text to Speech Generation
 
 ## `→ Project 2 - Text Summarization using Huggingface`
 * Installing/Upgrading the Necessary Libraries
