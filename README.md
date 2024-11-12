@@ -71,11 +71,11 @@ pip install -r requirements/text_preprocessing_requirements.txt
 * Zero Shot Learning
 * Few Shot Learning
 ### 3. Transformer Architecture (in Notes)
-* The Illustrated Transformer: "by Jay Alammar"
+* The Illustrated Transformer: [by Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 * Encoder based LLMs
 * Decoder based LLms
 * Encoder-Decoder based LLMs
-* Google Research Paper: <u>"Attention Is All You Need"</u>
+* Google Research Paper: [<u>"Attention Is All You Need"</u>](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 * Encoder Architecture:
     - Self-Attention: Single Head, Multi Head
     - Positional Encoding
