@@ -66,60 +66,68 @@ pip install -r requirements/text_preprocessing_requirements.txt
     - TF-IDF Vectorizer with RFC
 
 ## `→ Large Language Models (LLMs)`
-* Introduction (in Notes)
-* Propmt Engineering
-    - Zero Shot Learning
-    - Few Shot Learning
-* Transformer Architecture (in Notes)
-    - Encoder based LLMs
-    - Decoder based LLms
-    - Encoder-Decoder based LLMs
-    - Google Research Paper: "Attention Is All You Need"
-    - Encoder Architecture:
-        - Self-Attention: Single Head, Multi Head
-        - Positional Encoding
-        - Add & Normalization: kind of Residual Layer (ResNet) feature
-        - Feed Forward Neural Network
-        - Inputs are given all at once (meaing Parallely)
-    - Decoder Architecture:
-        - Same as Encoder architecture
-        - Has one extra layer: Encoder-Decoder Attention
-        - Outputs are generated one-by-one
-    - Linear Layer
-    - Activation Layer: Softmax() is prominently used as an activation function
-* How is ChatGPT trained
-    - Uses an LLM: like gpt-3.5 or gpt-4, etc.
-    - It is then trained in Several different steps:
-        - Generative pre-training
-        - Supervised fine-tuning
-        - Reinforcement learning from human feedback (RLHF)
-* Huggingface Platform
-    - Introduction
-    - Huggingface Tasks
-        - NLP Tasks
-        - Computer Vision Tasks
-        - Speech Processing Tasks
-        - Multimodal Tasks
-        - Other Tasks
-    - NLP tasks
-        - Sentiment Analysis
-        - Batch Sentiment Analysis
-        - Text Generation
-        - Question Answering
-    - Tokenization: AutoTokenizer
-    - Datasets & Spaces
-        - Loading and preparing Dataset
-        - Preprocessing the Data
-        - Setting-up the Training Arguments
-        - Initializing the Model
-        - Training the Model
-        - Evaluating the Model
-        - Saving the Model
-        - ArXiv data Summarization
-    - Fine-tuning LLMs
-    - Project 2
-    - Text to Image Generation
-    - Text to Speech Generation
+### 1. Introduction (in Notes)
+### 2. Propmt Engineering
+* Zero Shot Learning
+* Few Shot Learning
+### 3. Transformer Architecture (in Notes)
+* The Illustrated Transformer: [by Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
+* Encoder based LLMs
+* Decoder based LLms
+* Encoder-Decoder based LLMs
+* Google Research Paper: [<u>"Attention Is All You Need"</u>](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
+* Encoder Architecture:
+    - Self-Attention: Single Head, Multi Head
+    - Positional Encoding
+    - Add & Normalization: kind of Residual Layer (ResNet) feature
+    - Feed Forward Neural Network
+    - Inputs are given all at once (meaing Parallely)
+* Decoder Architecture:
+    - Same as Encoder architecture
+    - Has one extra layer: Encoder-Decoder Attention
+    - Outputs are generated one-by-one
+* Linear Layer
+* Activation Layer: Softmax() is prominently used as an activation function
+### 4. How is ChatGPT trained
+* Uses an LLM: like gpt-3.5 or gpt-4, etc.
+* It is then trained in Several different steps:
+    - Generative pre-training
+    - Supervised fine-tuning
+    - Reinforcement learning from human feedback (RLHF)
+### 5. Huggingface Platform
+* Introduction
+* Huggingface Tasks
+    - NLP Tasks
+    - Computer Vision Tasks
+    - Speech Processing Tasks
+    - Multimodal Tasks
+    - Other Tasks
+* NLP tasks
+    - Sentiment Analysis
+    - Batch Sentiment Analysis
+    - Text Generation
+    - Question Answering
+* Tokenization: AutoTokenizer
+* Datasets & Spaces
+    - Loading and preparing Dataset
+    - Preprocessing the Data
+    - Setting-up the Training Arguments
+    - Initializing the Model
+    - Training the Model
+    - Evaluating the Model
+    - Saving the Model
+    - ArXiv data Summarization
+* Fine-tuning LLMs
+* Project 2
+* Text to Image Generation
+* Text to Speech Generation
+### 6. OpenAI Platform
+* Introduction
+* ChatCompletion API
+* Completion API
+* Function Calling
+* Project 3
+* Fine Tuning Classification Model
 
 ## `→ Project 2 - Text Summarization using Huggingface`
 * Installing/Upgrading the Necessary Libraries
@@ -140,6 +148,29 @@ pip install -r requirements/text_preprocessing_requirements.txt
 * Saving the Model & Tokenizer
 * Loading the Saved Model
 * Predictions using the Loaded Model
+
+## `→ Project 3 - Telegram ChatBot using OpenAI Platform`
+* The main code for the project is in the `main.py` file
+* The code uses the OpenAI Platform's ChatCompletion API to interact with the user
+* To get the Telegra Bot Token
+    - Open Telegram either on your phone or on the Laptop, and search for the "BotFather"
+    - Follow the Steps to create the Bot
+    - It will give you the Bot Token and the Bot Username, and the Bot instance. Type the following:
+        - /start
+        - /newbot
+        - Name your Bot
+        - Choose the Bot Username
+        - This will generate the Bot Token
+* The code in the `main.py` file has been implemented using the following steps:
+    - Importing the necessary Libraries
+    - Step 1: Load the Keys and Tokens
+    - Step 2: Initialize the Class instance
+    - Step 3: Initialize bot and dispatcher
+    - Step 4: Define the function to handle the /start command
+    - Step 5: Define the function to handle the /help command
+    - Step 6: Define the function to clear the previous responses and context
+    - Step 7: Define the function to handle the Users inputs and generate responses
+    - Step 8: Call the Executor
 
 
 # Happy Coding!!!
